@@ -1,0 +1,59 @@
+html,body{
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+}
+.Table{
+    background-color: white;
+   border: 2px solid black;
+   border-collapse: collapse;
+}
+.Table th, .Table td {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: center; 
+}
+.flex{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.item{
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.flex2{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin-left: -10px;
+    margin-right: -10px;
+    justify-content: center;
+}
+.Table2{
+    background-color: white;
+   border: 2px solid black;
+   border-collapse: collapse;
+}
+.Table2 th, .Table2 td {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: center; 
+}
+
+.foot{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+}
